@@ -1,0 +1,87 @@
+.button-panel-add {
+	background: #00C955;
+	color: #ffffff;
+	width: 160px;
+	text-align: center;
+	height: 40px;
+	padding-top: 6px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.button-panel-add a {
+	color: white;
+	font-size: 16px;
+}
+
+.admin-table-head {
+	font-weight: bold;
+	overflow: hidden;
+	display: block;
+	margin-bottom: 10px;
+}
+.admin-table-head-col {
+	float: left;
+}
+
+.admin-table-first {
+	width: 40%;
+	float: left;
+}
+
+.admin-table {
+	width: 100%;
+	color: #283B63;
+}
+
+.admin-table-first-row {
+	padding-top: 5px;
+	padding-right: 20px;
+}
+
+.admin-table-button {
+	background: #0873BB;
+	color: #ffffff;
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 5px;
+	overflow: hidden;
+	float: left;
+	margin-right: 20px;
+}
+
+.admin-table-button a {
+	color: white;
+}
+
+.button-edit {
+	background: #F1C536;
+}
+
+.button-delete {
+	background: #BB001D;
+}
+
+.admin-table-row {
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.admin-table-actions {
+	overflow: hidden;
+}
+
+.button-back {
+	background: #0873BB;
+	color: #ffffff;
+	width: 100px;
+	text-align: center;
+	height: 40px;
+	padding-top: 7px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.button-back a {
+	color: white;
+}

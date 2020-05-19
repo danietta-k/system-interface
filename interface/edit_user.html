@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ИТиВС</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/module.css" rel="stylesheet">
+    <link href="css/edit.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="header">    <!--это хедер-->
+    <div class="container-fluid">
+      <div id="header" class="row">
+          <div id="header-1" class="col-md-4">
+            <div class="logo">    <!--это логотип кафедры, мб будет переход куда-то-->
+              <img src="pic/logo.png" height="92px">
+            </div>
+            <div class="logo_title"> <!--это расшифровка названия кафедры-->
+              <p class="logo_text">Кафедра информационных технологий и вычислительных систем</p>
+            </div>
+          </div>
+          <div class="col-md-4">    <!--пустое пространство по середине-->
+          </div>
+          <div id="name_user" class="col-md-2">
+            <div class="name">    <!--Имя фамилия пользователя (из бд)-->
+              <p>Имя Фамилия</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="profile">   <!--кнопка с аватаром пользователя-->
+              <button id="profile_button" class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                <img class="profile_photo" src="pic/photo.png" width="90px">
+              </button>
+        <div id="profile_menu" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+           <a class="dropdown-item" href="#">Мой профиль</a><a class="dropdown-item" href="#">Панель администратора</a><a class="dropdown-item" href="#">Выйти</a>
+        </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="main_body">  <!--основное окно-->
+      <div class="container-fluid">
+      <div class="row">
+        <div id="menu" class="col-md-3"> <!--боковое меню с модулями, нужно будет подгружать из бд, можно задавать высоту по количеству модулей(но это не точно)-->
+            <div class="widget">
+              <ul class="widget-list">
+                <li><input type="search" placeholder="Поиск модуля" name="search_module"></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+              </ul>
+            </div>
+        </div>
+        <div id="main-body-module" class="col-md-9">
+          <div class="title_module">
+            <h2>Редактирование пользователя</h2>   <!--название из БД-->
+          </div>
+          <form class="admin-edit">
+            <div class="admin-field">
+              <p>Логин</p>
+              <input class="input100" type="text" placeholder="Логин" name="login-user">
+            </div>
+            <div class="admin-field">
+              <p>Email</p>
+              <input class="input100" type="text" placeholder="Email" name="email-user">
+            </div>
+            <div class="admin-field">
+              <p>Пароль</p>
+              <input class="input100" type="password" placeholder="Пароль" name="password-user">
+            </div>
+            <div class="admin-field">
+              <p>Фамилия</p>
+              <input class="input100" type="text" placeholder="Фамилия" name="surname-user">
+            </div>
+            <div class="admin-field">
+              <p>Имя</p>
+              <input class="input100" type="text" placeholder="Имя" name="name-user">
+            </div>
+            <div class="admin-field">
+              <p>Отчество</p>
+              <input class="input100" type="text" placeholder="Отчество" name="lastname-user">
+            </div>
+            <div class="admin-field">
+              <p>Номер договора</p>
+              <input class="input100" type="text" placeholder="Номер договора" name="contract-user">
+            </div>
+            <div class="admin-field">
+              <p>Должность</p>
+              <input class="input100" type="text" placeholder="Должность" name="position-user">
+            </div>
+            <div class="admin-field">
+              <p>Статус</p>
+              <input class="input100" type="text" placeholder="Статус" name="status-user">
+            </div>
+            <input class="button-save" type="submit" value="Сохранить">
+          </form>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">  <!--это футер-->
+      <div class="container-fluid">
+      <div id="footer" class="row">
+        <div class="col-md-12">
+          <div class="footer_text">
+            <p>Кафедра ИТиВС 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

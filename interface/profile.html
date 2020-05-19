@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ИТиВС</title>
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/profile.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+
+   
+
+  </head>
+
+  <body>
+
+    <div class="header">    <!--это хедер-->
+    <div class="container-fluid">
+      <div id="header" class="row">
+          <div id="header-1" class="col-md-4">
+            <div class="logo">    <!--это логотип кафедры, мб будет переход куда-то-->
+              <img src="pic/logo.png" height="92px">
+            </div>
+            <div class="logo_title"> <!--это расшифровка названия кафедры-->
+              <p class="logo_text">Кафедра информационных технологий и вычислительных систем</p>
+            </div>
+          </div>
+          <div class="col-md-4">    <!--пустое пространство по середине-->
+          </div>
+          <div id="name_user" class="col-md-2">
+            <div class="name">    <!--Имя фамилия пользователя (из бд)-->
+              <p>Имя Фамилия</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="profile">   <!--кнопка с аватаром пользователя-->
+              <button id="profile_button" class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                <img class="profile_photo" src="pic/photo.png" width="90px">
+              </button>
+        <div id="profile_menu" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+           <a class="dropdown-item" href="#">Мой профиль</a><a class="dropdown-item" href="#">Панель администратора</a> <a class="dropdown-item" href="#">Выйти</a>
+        </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="main_body">  <!--основное окно-->
+      <div class="container-fluid">
+      <div class="row">
+        <div id="menu" class="col-md-3"> <!--боковое меню с модулями, нужно будет подгружать из бд, можно задавать высоту по количеству модулей(но это не точно)-->
+            <div class="widget">
+              <ul class="widget-list">
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+                <li><a href="">Название модуля</a></li>
+              </ul>
+            </div>
+        </div>
+        <div id="main-body-module" class="col-md-9">
+          <div class="title_module">
+            <h2>Профиль пользователя</h2>   
+          </div>
+          <div class="profile_info">    <!--основной блок с инфой-->
+            <div class="photo"> 
+            	<img class="photo-photo" src="pic/photo.png">    <!--фотография из бд-->
+              <div class="photo-menu">
+                <p><img class="photo-menu-icon" src="pic/upload.png">Обновить фотографию</p>
+                <p><img class="photo-menu-icon" src="pic/delete.png">Удалить фотографию</p>
+              </div>
+            </div>
+            <div class="profile_information">     <!--блок с инфой-->
+              <h4 class="profile-name">Имя Фамилия Отчество</h4>       <!--ФИО-->
+              <p class="info">Номер договора:</p>
+              <p class="info">Статус:</p>
+              <p class="info">Должность:</p>
+              <div class="change_pass">
+                <p class="info_password">Пароль</p> <button id="change_pass_btn">Изменить пароль</button>    <!--кнопка для открытия формы смены пароля-->
+                <div id="change_pass_form">
+                  <form>    <!--форма для смены пароля-->
+                    <input id="_old_pass" class="input100" type="password" placeholder="Старый пароль" name="old_pass">    <!--старый пароль-->
+                    <input id="_new_pass" class="input100" type="password" placeholder="Новый пароль" name="new_pass">     <!--новый пароль-->
+                    <input id="_repeat_new_pass" class="input100" type="password" placeholder="Повторите новый пароль" name="repeat_new_pass">   <!--еще раз новый пароль-->
+                    <input id="submit_pass" type="submit" value="Сохранить изменения" name="change">     <!--кнопка для отправки данных на сервер-->
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">  <!--это футер-->
+      <div class="container-fluid">
+      <div id="footer" class="row">
+        <div class="col-md-12">
+          <div class="footer_text">
+            <p>Кафедра ИТиВС 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="js/jquery.min.js"></script>
+    
+    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+

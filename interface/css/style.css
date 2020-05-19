@@ -1,0 +1,148 @@
+#header, #footer{
+	background: linear-gradient(0deg, #D8E1EA, #CCD5DC);
+}
+
+#footer{
+	height: 60px;
+}
+
+#header{
+	height: 110px;
+}
+
+#header-1 {
+	overflow: hidden;
+	width: 450px;
+}
+
+.logo{
+	padding: 9px 0 9px 80px;
+	float: left;
+	width: 260px;
+	height: 110px;
+}
+
+.logo_title{
+	float: left;
+	width: 180px;
+	vertical-align: middle;
+	padding: 10px 0 10px 16px;
+	height: 110px;
+}
+.logo_text{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 15px;
+}
+.profile{
+	width: 100%;
+	outline: none;
+	border: none !important;
+	padding-top: 10px;
+}
+
+#main-body-module{
+	border-left: 1px solid #0873BB;
+	padding: 26px 90px 0 74px;
+}
+
+#profile_button{
+	padding: 0;
+	width: 90px;
+	height: 90px;
+	border: none;
+	outline: none;
+	border: none;
+	color: transparent;
+	background-color: transparent;
+	border-radius: 50%;
+}
+
+.profile_photo{
+	outline: none;
+	border: none !important;
+	border-radius: 50%;
+}
+.name{
+	font-family: 'PT Sans', sans-serif;
+	padding-top: 43px;
+	text-align: right;
+}
+#profile_menu a{
+	font-family: 'PT Sans', sans-serif;
+}
+#name_user{
+	padding: 0;
+}
+
+.widget {
+  background: white;
+}
+
+#menu{
+	padding: 0;
+	height: 930px;
+}
+.widget-list li{
+	border-bottom: 1px solid #0873BB;
+	padding: 20px 0 20px 80px;
+}
+
+.widget-list {
+  padding: 0;
+  list-style: none;
+}
+.widget-list a {
+	font-family: 'PT Sans', sans-serif;
+  text-decoration: none;
+  outline: none;
+  display: block;
+  padding: 6px 0; 
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: #283B63;
+  transition: .3s linear;
+}
+.widget-list li:hover{
+	background: #E6EEF4;
+}
+
+.title_module{
+	color: #283B63;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.description_module{
+	color: #0873BB;
+	text-align: justify;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.work_module{
+	color: #283B63;
+	border: 2px solid #283B63;
+	padding: 30px 30px 30px 26px;
+}
+.footer_text{
+	text-align: right;
+	font-family: 'PT Sans', sans-serif;
+	color: #283B63;
+	padding: 10px;
+	margin: 0;
+}
+
+
+
+
+@media screen and (max-width:425px) {
+    .logo_title {
+        display: none;
+    }
+    .name{
+    	display: none;
+    }
+}
+@media screen and (max-width:1024px) {
+    .logo_title {
+        display: none;
+    }
+}

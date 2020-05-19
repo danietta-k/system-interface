@@ -1,0 +1,46 @@
+.admin-field {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.input100 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  color: #555555;
+  line-height: 1.2;
+
+  display: block;
+  width: 90%;
+  height: 30px;
+  background: transparent;
+  padding: 0 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 2px solid #D8E1EA;
+  outline: none;
+
+}
+
+.input100:focus{
+	border-bottom: 2px solid #283B63;
+	-webkit-transition: all 0.4s;
+  	-o-transition: all 0.4s;
+  	-moz-transition: all 0.4s;
+  	transition: all 0.4s;
+}
+
+.admin-edit {
+	margin-bottom: 20px;
+}
+
+.button-save {
+	padding:5px 15px; 
+    background:#00C955; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+}

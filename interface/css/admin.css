@@ -1,0 +1,16 @@
+.button-panel {
+	background: #0873BB;
+	color: #ffffff;
+	width: 140px;
+	text-align: center;
+	height: 40px;
+	padding-top: 6px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.button-panel a {
+	color: white;
+	font-size: 16px;
+	font-family: 'PT Sans', sans-serif;
+}

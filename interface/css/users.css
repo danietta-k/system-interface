@@ -1,0 +1,38 @@
+.button-panel-add {
+	background: #00C955;
+	color: #ffffff;
+	width: 200px;
+	text-align: center;
+	height: 40px;
+	padding-top: 6px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.button-panel-add a {
+	color: white;
+	font-size: 16px;
+}
+
+.admin-table-actions {
+	width: 61%;
+	padding-left: 20px;
+}
+
+.admin-table-surname {
+	width: 13%;
+	float: left;
+	padding-right: 10px;
+}
+
+.admin-table-name {
+	width: 13%;
+	float: left;
+	padding-right: 10px;
+}
+
+.admin-table-login {
+	width: 13%;
+	float: left;
+	padding-right: 10px;
+}
